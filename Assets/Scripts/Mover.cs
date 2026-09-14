@@ -19,7 +19,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        MovePlayer();
     }
 
     void MovePlayer()
