@@ -15,6 +15,20 @@ public class FlyPlay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, playerPosition, 0.01f);
+        MoveToplayer();
+        DestroyWhenReached();
+    }
+
+    void MoveToplayer()
+    {
+        transform.position =
+        Vector3.MoveTowards(transform.position, playerPosition, Time.deltaTime * speed);
+    }
+    void DestroyWhenReached()
+    {
+        if (transform.position == playerPosition)
+        {
+            Destroy(gameObject);
+        }
     }
 }
