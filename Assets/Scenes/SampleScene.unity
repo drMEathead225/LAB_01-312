@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &11309149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+  m_PrefabInstance: {fileID: 942351974}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &33261424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -189,6 +194,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7617911852692318303, guid: 73e538db67cf8454a8b94d447a446dde, type: 3}
   m_PrefabInstance: {fileID: 33261424}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &71883331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+  m_PrefabInstance: {fileID: 107473028}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &107473028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -252,13 +262,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 107473034}
   m_SourcePrefab: {fileID: 100100000, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
 --- !u!4 &107473029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 71145258227943332, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
   m_PrefabInstance: {fileID: 107473028}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &107473034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71883331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012c087b192b3404b8e3493237cde31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spinner
+  xAngle: 8
+  yAngle: 0
+  zAngle: 0
 --- !u!1 &124822602 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7617911852692318303, guid: 73e538db67cf8454a8b94d447a446dde, type: 3}
@@ -497,7 +525,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 562258977}
+    - targetCorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 562258976}
   m_SourcePrefab: {fileID: 100100000, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
 --- !u!4 &346241484 stripped
 Transform:
@@ -938,6 +972,41 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 0
   zAngle: 0
+--- !u!1 &562258971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+  m_PrefabInstance: {fileID: 346241483}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &562258976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562258971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012c087b192b3404b8e3493237cde31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spinner
+  xAngle: 0
+  yAngle: 0
+  zAngle: 0
+--- !u!114 &562258977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562258971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012c087b192b3404b8e3493237cde31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spinner
+  xAngle: 6
+  yAngle: 0
+  zAngle: 0
 --- !u!1 &582103582
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,6 +1340,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7617911852692318303, guid: 73e538db67cf8454a8b94d447a446dde, type: 3}
   m_PrefabInstance: {fileID: 702335306}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &712360637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+  m_PrefabInstance: {fileID: 731032594}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &722735800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1462,13 +1536,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 731032600}
   m_SourcePrefab: {fileID: 100100000, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
 --- !u!4 &731032595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 71145258227943332, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
   m_PrefabInstance: {fileID: 731032594}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &731032600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712360637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012c087b192b3404b8e3493237cde31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spinner
+  xAngle: 5
+  yAngle: 0
+  zAngle: 0
 --- !u!4 &776920956 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6608534438224939811, guid: 8840e59974e501441b7965b1f56f47ad, type: 3}
@@ -1591,17 +1683,40 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 942351980}
   m_SourcePrefab: {fileID: 100100000, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
 --- !u!4 &942351975 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 71145258227943332, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
   m_PrefabInstance: {fileID: 942351974}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &942351980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11309149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012c087b192b3404b8e3493237cde31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spinner
+  xAngle: 9
+  yAngle: 0
+  zAngle: 0
 --- !u!4 &1031671263 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5246719489447108647, guid: 34493637c260d1a4db7e2b001c7fe6de, type: 3}
   m_PrefabInstance: {fileID: 2697652268864585561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1036599165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+  m_PrefabInstance: {fileID: 1543120012}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1098220372 stripped
 Transform:
@@ -1842,13 +1957,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6743751119032888241, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1543120018}
   m_SourcePrefab: {fileID: 100100000, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
 --- !u!4 &1543120013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 71145258227943332, guid: 3c1c99bdeb4bf1a468c2a8f22c1204cb, type: 3}
   m_PrefabInstance: {fileID: 1543120012}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1543120018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036599165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012c087b192b3404b8e3493237cde31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spinner
+  xAngle: 7
+  yAngle: 0
+  zAngle: 0
 --- !u!1001 &1648080565
 PrefabInstance:
   m_ObjectHideFlags: 0
